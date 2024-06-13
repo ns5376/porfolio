@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisa Shahid - Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="#hero">Nisa Shahid</a></div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#gallery">Travel</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1><i>Hello, I am Nisa</i></h1>
+        <h3> traveller, designer and programmer</h3>
+        <button id="discover-btn"><a href="#about">Come Travel Through my Portfolio!</a></button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="img/about.jpg" alt="About Me Image">
+            <p>Welcome to my personal portfolio. I am passionate about traveling and capturing beautiful moments through my lens. I also enjoy front end web development and programming. Explore my work and get to know more about me.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="img/camera.jpg" alt="Photography" class="skill-image">
+                <div class="skill-popup">Photography</div>
+            </div>
+            <div class="skill">
+                <img src="img/web.jpg" alt="Web Design" class="skill-image">
+                <div class="skill-popup">Web Design</div>
+            </div>
+            <div class="skill">
+                <img src="img/video.jpg" alt="Graphic Design" class="skill-image">
+                <div class="skill-popup">Graphic Design</div>
+            </div>
+            <div class="skill">
+                <img src="img/python.jpg" alt="Graphic Design" class="skill-image">
+                <div class="skill-popup">Python</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Whispers of the Campus</h3>
+                <a href = "https://ns5376.github.io/assignment1-github.io/"><img src = "img/30mff.jpg" width= 300px height = 200px></a>
+
+            </div>
+            <div class="project">
+                <h3>11th Hour Heroics</h3>
+                <a href = "https://aarz1401.github.io/11th_Hour_Heroic/"><img src = "img/comic.jpg" width= 300px height = 200px></a>
+            </div>
+            <div class="project">
+                <h3>No Room For Suri</h3>
+                <a href = "https://shahzaib70456.github.io/Video/"><img src = "img/film.jpg" width= 300px height = 200px></a>
+            </div>
+            <div class="project">
+                <h3>Police Chase Chronicles</h3>
+                <a href = "https://ns5376.github.io/Police-Chase-Chronicles/"><img src = "img/sound.jpg" width= 300px height = 200px></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Travel Photography</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="img/franceslider.jpg" alt="France" class="main-image">
+                <img src="img/france.jpg" alt="Art 1 Hover" class="hover-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img/spainslider.jpg" alt="Spain" class="main-image">
+                <img src="img/spain.jpg" alt="Art 2 Hover" class="hover-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img/norwayslider.jpg" alt="Norway" class="main-image">
+                <img src="img/norway.jpg" alt="Art 3 Hover" class="hover-image">
+            </div>
+            <div class="gallery-item">
+                <img src="img/hollandslider.jpg" alt="The Netherlands" class="main-image">
+                <img src="img/holland.jpg" alt="Art 4 Hover" class="hover-image">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="email" placeholder="Your Email">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Nisa Shahid. All Rights Reserved.</p>
+            <!-- <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><img src="img/twitter-icon.png" alt="Twitter"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="img/linkedin-icon.png" alt="LinkedIn"></a>
+                <a href="https://github.com" target="_blank"><img src="img/github-icon.png" alt="GitHub"></a>
+            </div> -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
